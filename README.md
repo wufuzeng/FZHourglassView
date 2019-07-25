@@ -8,10 +8,10 @@
 
 # FZHourglassView
 ##  特征 
-
+<p>
 <img src="https://github.com/wufuzeng/FZHourglassView/blob/master/Screenshots/hourglass.png
-" title="" float=left >
-
+" title="" >
+</ p>
 
 [![CI Status](https://img.shields.io/travis/wufuzeng/FZHourglassView.svg?style=flat)](https://travis-ci.org/wufuzeng/FZHourglassView)
 [![Version](https://img.shields.io/cocoapods/v/FZHourglassView.svg?style=flat)](https://cocoapods.org/pods/FZHourglassView)
