@@ -1,17 +1,17 @@
-
-
-
-# FZHourglassView
+ 
 # 你刚好需要，我刚好出现，请赏一颗小星星.
 
 
 
 # FZHourglassView
 ##  特征 
-<p>
-<img src="https://github.com/wufuzeng/FZHourglassView/blob/master/Screenshots/hourglass.png
-" title="" >
-</ p>
+
+<div> 效果：
+<br />
+<div>
+<img src="https://github.com/wufuzeng/FZHourglassView/blob/master/Screenshots/hourglass.png" title="" float=left width = '1000px'>
+</div>
+<div> 
 
 [![CI Status](https://img.shields.io/travis/wufuzeng/FZHourglassView.svg?style=flat)](https://travis-ci.org/wufuzeng/FZHourglassView)
 [![Version](https://img.shields.io/cocoapods/v/FZHourglassView.svg?style=flat)](https://cocoapods.org/pods/FZHourglassView)
