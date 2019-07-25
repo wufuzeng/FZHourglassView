@@ -9,7 +9,7 @@
 <div> 效果：
 <br />
 <div>
-<img src="https://github.com/wufuzeng/FZHourglassView/blob/master/Screenshots/hourglass.png" title="" float=left width = '1000px'>
+<img src="https://github.com/wufuzeng/FZHourglassView/blob/master/Screenshots/hourglass.png" title="" >
 </div>
 <div> 
 
