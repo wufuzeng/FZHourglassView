@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0AD14631EF9F106FC446B6F6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		1437C655311C60CE01F478A4 /* FZHourglassView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FZHourglassView.podspec; path = ../FZHourglassView.podspec; sourceTree = "<group>"; };
+		0AD14631EF9F106FC446B6F6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1437C655311C60CE01F478A4 /* FZHourglassView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FZHourglassView.podspec; path = ../FZHourglassView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		20A229126B321F1A2A68488D /* Pods-FZHourglassView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FZHourglassView_Example.debug.xcconfig"; path = "Target Support Files/Pods-FZHourglassView_Example/Pods-FZHourglassView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		20D3610D10C298E9A1251BCD /* Pods-FZHourglassView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FZHourglassView_Example.release.xcconfig"; path = "Target Support Files/Pods-FZHourglassView_Example/Pods-FZHourglassView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3085E46622FD7184BCC8DEC4 /* Pods-FZHourglassView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FZHourglassView_Tests.release.xcconfig"; path = "Target Support Files/Pods-FZHourglassView_Tests/Pods-FZHourglassView_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -66,7 +66,7 @@
 		77F16A3CE1E8D58C7C6C9A6A /* Pods_FZHourglassView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FZHourglassView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		80E5E94AE09F6B348BD13FB7 /* Pods_FZHourglassView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FZHourglassView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9D9CE8CEAF2FB8795B10B1DB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9D9CE8CEAF2FB8795B10B1DB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				6CC8715B23855E5F3F0C61AC /* Pods-FZHourglassView_Tests.debug.xcconfig */,
 				3085E46622FD7184BCC8DEC4 /* Pods-FZHourglassView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = wufuzeng;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = E638HXYY46;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -494,6 +497,7 @@
 			baseConfigurationReference = 20A229126B321F1A2A68488D /* Pods-FZHourglassView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E638HXYY46;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FZHourglassView/FZHourglassView-Prefix.pch";
 				INFOPLIST_FILE = "FZHourglassView/FZHourglassView-Info.plist";
@@ -510,6 +514,7 @@
 			baseConfigurationReference = 20D3610D10C298E9A1251BCD /* Pods-FZHourglassView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E638HXYY46;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FZHourglassView/FZHourglassView-Prefix.pch";
 				INFOPLIST_FILE = "FZHourglassView/FZHourglassView-Info.plist";

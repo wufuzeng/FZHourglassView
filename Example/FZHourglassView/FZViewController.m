@@ -8,7 +8,10 @@
 
 #import "FZViewController.h"
 
+#import <FZHourglassView.h>
 @interface FZViewController ()
+
+@property (nonatomic,strong) FZHourglassView *hourglassView;
 
 @end
 
@@ -17,13 +20,17 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    [self.hourglassView show];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(FZHourglassView *)hourglassView{
+    if (_hourglassView == nil) {
+        _hourglassView = [FZHourglassView new];
+        [self.view addSubview:_hourglassView];
+        _hourglassView.center = self.view.center;
+    }
+    return _hourglassView;
 }
+
 
 @end

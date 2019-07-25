@@ -1,0 +1,781 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23E9D3B71231F6905BF06184BC72EC57 /* FZHourglassView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 16B6A56B5AADB05F614F230989D0EA3D /* FZHourglassView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25F6B5495216841B260072CC6B49E015 /* FZHourglassView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4B6B4C0F28C79613EE80410F824695 /* FZHourglassView.m */; };
+		476F53850E6106B5661EB9882DEC66C3 /* Pods-FZHourglassView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38551032FE2D55E4E9DDCDB169B31BC5 /* Pods-FZHourglassView_Example-dummy.m */; };
+		4930CAF624889D8D6F1EFF40602FA839 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBCD5169B524477639A9A41855A47F99 /* QuartzCore.framework */; };
+		6FE4006C39D5C9DD9037488DC7873336 /* FZHourglassView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1293C34CB2BD6C83182094116C445917 /* FZHourglassView-dummy.m */; };
+		72BA87249DD4AB35B7B5815211B5B8AA /* Pods-FZHourglassView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FBB369103425F6176D35DA2EE9AE2B2E /* Pods-FZHourglassView_Tests-dummy.m */; };
+		8D40AB8258F6A42D98472C295133F49E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */; };
+		8FA705CC02D563AE3380E8C666178440 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F545AB76C9016ECAD7D83A1129E704 /* UIKit.framework */; };
+		9C7D10BEE7BDDC391C7510D5EF7DD035 /* FZHourglassView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B03A2090375C2CAFC2D2E0B1D1E2EE1 /* FZHourglassView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A38217620F9C01DE875855EF1FD5BC31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */; };
+		B2AF81E5E6C62D4CC3734E94DC395136 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */; };
+		B88661A21BAB12FBBE13D5EFB1E156C3 /* Pods-FZHourglassView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6085973702105D45360A28B6C9052A09 /* Pods-FZHourglassView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6BFBD8E26B6DCF2F48BC267B71D9BAE /* Pods-FZHourglassView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FFB83183B59D3D208A6AF5D41A653CC /* Pods-FZHourglassView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D197C4DF3DACD79EA828CB27B5E9C2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70806DC55F8DC762DE6FB2204B803D30;
+			remoteInfo = "Pods-FZHourglassView_Example";
+		};
+		CC192B313D2B6EAE32A0248E2FB45BFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 489826F4EF03AB8941DA7F9D17F615FB;
+			remoteInfo = FZHourglassView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		012D38F9421D2B8E5F59B46B8869A79F /* Pods-FZHourglassView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FZHourglassView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1293C34CB2BD6C83182094116C445917 /* FZHourglassView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FZHourglassView-dummy.m"; sourceTree = "<group>"; };
+		16B6A56B5AADB05F614F230989D0EA3D /* FZHourglassView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FZHourglassView-umbrella.h"; sourceTree = "<group>"; };
+		191B049DB08F702C638BB20DDE4BCA9F /* FZHourglassView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FZHourglassView-prefix.pch"; sourceTree = "<group>"; };
+		1A7AA90176A02ED4DB215FD3AA7952EA /* Pods-FZHourglassView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FZHourglassView_Tests.modulemap"; sourceTree = "<group>"; };
+		22F2EE20CCCF92E8637663893810B79E /* Pods-FZHourglassView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FZHourglassView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2B03A2090375C2CAFC2D2E0B1D1E2EE1 /* FZHourglassView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FZHourglassView.h; path = FZHourglassView/Classes/FZHourglassView.h; sourceTree = "<group>"; };
+		38551032FE2D55E4E9DDCDB169B31BC5 /* Pods-FZHourglassView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FZHourglassView_Example-dummy.m"; sourceTree = "<group>"; };
+		3A1CB23B5EEF40797DE10D53F72F6798 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3C2716142D6A366E9E48B1C3387324DE /* Pods-FZHourglassView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FZHourglassView_Example.modulemap"; sourceTree = "<group>"; };
+		49F545AB76C9016ECAD7D83A1129E704 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		4EFF392D74F5EF375092A633161832AB /* Pods-FZHourglassView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FZHourglassView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		580BED1314A23F72EB0AA6B20C652D8D /* Pods-FZHourglassView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FZHourglassView_Tests-Info.plist"; sourceTree = "<group>"; };
+		5C4B6B4C0F28C79613EE80410F824695 /* FZHourglassView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FZHourglassView.m; path = FZHourglassView/Classes/FZHourglassView.m; sourceTree = "<group>"; };
+		5F246847206B07C74A532F8445618454 /* Pods-FZHourglassView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FZHourglassView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6085973702105D45360A28B6C9052A09 /* Pods-FZHourglassView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FZHourglassView_Example-umbrella.h"; sourceTree = "<group>"; };
+		68F9D345A6EB444D6CCBA40D5CC44776 /* FZHourglassView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FZHourglassView-Info.plist"; sourceTree = "<group>"; };
+		6C939CD28CB709B934542E3624FBE2D2 /* FZHourglassView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FZHourglassView.framework; path = FZHourglassView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		819E7DECB528394AA542622E1A18E4E4 /* Pods-FZHourglassView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FZHourglassView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		92070C666B7D617CF9D447B068A4ED52 /* Pods-FZHourglassView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FZHourglassView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9A2407E0F0FB164879387F582D087F0E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FFB83183B59D3D208A6AF5D41A653CC /* Pods-FZHourglassView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FZHourglassView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A88CA58F13904BA27552BF4608ED064B /* Pods_FZHourglassView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FZHourglassView_Tests.framework; path = "Pods-FZHourglassView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE1BCA9B8972DB3F123CE57DF3CDC1AA /* Pods-FZHourglassView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FZHourglassView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B1857ED5C35E3B07D0AC8F7841898FB5 /* FZHourglassView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FZHourglassView.modulemap; sourceTree = "<group>"; };
+		BCFB3601F8C714C359A56FEDEF8FBC1B /* Pods-FZHourglassView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FZHourglassView_Example-Info.plist"; sourceTree = "<group>"; };
+		CBCD5169B524477639A9A41855A47F99 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		CD3CBBCC78B12AF33839774F908865EA /* Pods-FZHourglassView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FZHourglassView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CFD031B00864FC2BC817A2E24949F3D7 /* FZHourglassView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FZHourglassView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D8D0E2CF36A27300A18B26A7F452BDF9 /* Pods-FZHourglassView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FZHourglassView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F0C01917C5F3E5E9568F2A777040E2D4 /* FZHourglassView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FZHourglassView.xcconfig; sourceTree = "<group>"; };
+		FBB369103425F6176D35DA2EE9AE2B2E /* Pods-FZHourglassView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FZHourglassView_Tests-dummy.m"; sourceTree = "<group>"; };
+		FD25938B5BCD53DC64B3732D9DD093E9 /* Pods_FZHourglassView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FZHourglassView_Example.framework; path = "Pods-FZHourglassView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98BFBDD10CD46B0A2578D0D57EC6A977 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D40AB8258F6A42D98472C295133F49E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C37368DF902D853E773B9DD2D59CB175 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2AF81E5E6C62D4CC3734E94DC395136 /* Foundation.framework in Frameworks */,
+				4930CAF624889D8D6F1EFF40602FA839 /* QuartzCore.framework in Frameworks */,
+				8FA705CC02D563AE3380E8C666178440 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3459C384CB061F133BC737E5321270D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A38217620F9C01DE875855EF1FD5BC31 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C18BABFF9523A33465B5A91496FF0C3D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		16D6A6F2C21B716D4EC7D9BABCAFEEB4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				815355781648A512311F8B531732D6DD /* FZHourglassView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2FA944B513E74553AABA31D0D5184B81 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1857ED5C35E3B07D0AC8F7841898FB5 /* FZHourglassView.modulemap */,
+				F0C01917C5F3E5E9568F2A777040E2D4 /* FZHourglassView.xcconfig */,
+				1293C34CB2BD6C83182094116C445917 /* FZHourglassView-dummy.m */,
+				68F9D345A6EB444D6CCBA40D5CC44776 /* FZHourglassView-Info.plist */,
+				191B049DB08F702C638BB20DDE4BCA9F /* FZHourglassView-prefix.pch */,
+				16B6A56B5AADB05F614F230989D0EA3D /* FZHourglassView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FZHourglassView";
+			sourceTree = "<group>";
+		};
+		3736AD92F5AC1E606EB7074CA984FB1C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CFD031B00864FC2BC817A2E24949F3D7 /* FZHourglassView.podspec */,
+				3A1CB23B5EEF40797DE10D53F72F6798 /* LICENSE */,
+				9A2407E0F0FB164879387F582D087F0E /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		3BB52E92202BF0C3F5F7198E58725C40 /* Pods-FZHourglassView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				3C2716142D6A366E9E48B1C3387324DE /* Pods-FZHourglassView_Example.modulemap */,
+				4EFF392D74F5EF375092A633161832AB /* Pods-FZHourglassView_Example-acknowledgements.markdown */,
+				D8D0E2CF36A27300A18B26A7F452BDF9 /* Pods-FZHourglassView_Example-acknowledgements.plist */,
+				38551032FE2D55E4E9DDCDB169B31BC5 /* Pods-FZHourglassView_Example-dummy.m */,
+				AE1BCA9B8972DB3F123CE57DF3CDC1AA /* Pods-FZHourglassView_Example-frameworks.sh */,
+				BCFB3601F8C714C359A56FEDEF8FBC1B /* Pods-FZHourglassView_Example-Info.plist */,
+				6085973702105D45360A28B6C9052A09 /* Pods-FZHourglassView_Example-umbrella.h */,
+				CD3CBBCC78B12AF33839774F908865EA /* Pods-FZHourglassView_Example.debug.xcconfig */,
+				92070C666B7D617CF9D447B068A4ED52 /* Pods-FZHourglassView_Example.release.xcconfig */,
+			);
+			name = "Pods-FZHourglassView_Example";
+			path = "Target Support Files/Pods-FZHourglassView_Example";
+			sourceTree = "<group>";
+		};
+		594D147A3D4AAE3520D9CEE763B97CF7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BB52E92202BF0C3F5F7198E58725C40 /* Pods-FZHourglassView_Example */,
+				D48D9044C8D78399DE95DEC8ACEA8B69 /* Pods-FZHourglassView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		60CDF90715D583CBD4ED46C6154E38A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C939CD28CB709B934542E3624FBE2D2 /* FZHourglassView.framework */,
+				FD25938B5BCD53DC64B3732D9DD093E9 /* Pods_FZHourglassView_Example.framework */,
+				A88CA58F13904BA27552BF4608ED064B /* Pods_FZHourglassView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		815355781648A512311F8B531732D6DD /* FZHourglassView */ = {
+			isa = PBXGroup;
+			children = (
+				2B03A2090375C2CAFC2D2E0B1D1E2EE1 /* FZHourglassView.h */,
+				5C4B6B4C0F28C79613EE80410F824695 /* FZHourglassView.m */,
+				3736AD92F5AC1E606EB7074CA984FB1C /* Pod */,
+				2FA944B513E74553AABA31D0D5184B81 /* Support Files */,
+			);
+			name = FZHourglassView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C18BABFF9523A33465B5A91496FF0C3D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */,
+				CBCD5169B524477639A9A41855A47F99 /* QuartzCore.framework */,
+				49F545AB76C9016ECAD7D83A1129E704 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				16D6A6F2C21B716D4EC7D9BABCAFEEB4 /* Development Pods */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				60CDF90715D583CBD4ED46C6154E38A5 /* Products */,
+				594D147A3D4AAE3520D9CEE763B97CF7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D48D9044C8D78399DE95DEC8ACEA8B69 /* Pods-FZHourglassView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1A7AA90176A02ED4DB215FD3AA7952EA /* Pods-FZHourglassView_Tests.modulemap */,
+				22F2EE20CCCF92E8637663893810B79E /* Pods-FZHourglassView_Tests-acknowledgements.markdown */,
+				012D38F9421D2B8E5F59B46B8869A79F /* Pods-FZHourglassView_Tests-acknowledgements.plist */,
+				FBB369103425F6176D35DA2EE9AE2B2E /* Pods-FZHourglassView_Tests-dummy.m */,
+				580BED1314A23F72EB0AA6B20C652D8D /* Pods-FZHourglassView_Tests-Info.plist */,
+				9FFB83183B59D3D208A6AF5D41A653CC /* Pods-FZHourglassView_Tests-umbrella.h */,
+				819E7DECB528394AA542622E1A18E4E4 /* Pods-FZHourglassView_Tests.debug.xcconfig */,
+				5F246847206B07C74A532F8445618454 /* Pods-FZHourglassView_Tests.release.xcconfig */,
+			);
+			name = "Pods-FZHourglassView_Tests";
+			path = "Target Support Files/Pods-FZHourglassView_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9656BF2407A619387FD1DBEEE5444596 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B88661A21BAB12FBBE13D5EFB1E156C3 /* Pods-FZHourglassView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0996871C0E9C8DF85CC7C46D0E9A0ED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23E9D3B71231F6905BF06184BC72EC57 /* FZHourglassView-umbrella.h in Headers */,
+				9C7D10BEE7BDDC391C7510D5EF7DD035 /* FZHourglassView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6AAE05C7D16F538F734EA18020B83A7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6BFBD8E26B6DCF2F48BC267B71D9BAE /* Pods-FZHourglassView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		28055B47F42401115BF3CACE55A4E9C5 /* Pods-FZHourglassView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 307174FA032088DB0C6F6959B39EA7A1 /* Build configuration list for PBXNativeTarget "Pods-FZHourglassView_Tests" */;
+			buildPhases = (
+				C6AAE05C7D16F538F734EA18020B83A7 /* Headers */,
+				49E51A28BDD41B480C2B41B00577DF06 /* Sources */,
+				D3459C384CB061F133BC737E5321270D /* Frameworks */,
+				762B767E4379AD710E429C904D97CB8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EBF144E7D5CD6841580FEE7D8FBB09A /* PBXTargetDependency */,
+			);
+			name = "Pods-FZHourglassView_Tests";
+			productName = "Pods-FZHourglassView_Tests";
+			productReference = A88CA58F13904BA27552BF4608ED064B /* Pods_FZHourglassView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		489826F4EF03AB8941DA7F9D17F615FB /* FZHourglassView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C530B5F7384773D650F31CDB9CFDDC87 /* Build configuration list for PBXNativeTarget "FZHourglassView" */;
+			buildPhases = (
+				C0996871C0E9C8DF85CC7C46D0E9A0ED /* Headers */,
+				0A9F346BA6A2C8795C7667D030D639D1 /* Sources */,
+				C37368DF902D853E773B9DD2D59CB175 /* Frameworks */,
+				7E970B97DB66AAE33C15C174D7163CAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FZHourglassView;
+			productName = FZHourglassView;
+			productReference = 6C939CD28CB709B934542E3624FBE2D2 /* FZHourglassView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		70806DC55F8DC762DE6FB2204B803D30 /* Pods-FZHourglassView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E47F36FB9CBC1D12589C7B180EAFCA5B /* Build configuration list for PBXNativeTarget "Pods-FZHourglassView_Example" */;
+			buildPhases = (
+				9656BF2407A619387FD1DBEEE5444596 /* Headers */,
+				5B4B18C04BB199C232807F771ECC5916 /* Sources */,
+				98BFBDD10CD46B0A2578D0D57EC6A977 /* Frameworks */,
+				F688973F665536C8A9BFC1B8113986CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D9EF095F16D75C37DFD030A4930A05E /* PBXTargetDependency */,
+			);
+			name = "Pods-FZHourglassView_Example";
+			productName = "Pods-FZHourglassView_Example";
+			productReference = FD25938B5BCD53DC64B3732D9DD093E9 /* Pods_FZHourglassView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 60CDF90715D583CBD4ED46C6154E38A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				489826F4EF03AB8941DA7F9D17F615FB /* FZHourglassView */,
+				70806DC55F8DC762DE6FB2204B803D30 /* Pods-FZHourglassView_Example */,
+				28055B47F42401115BF3CACE55A4E9C5 /* Pods-FZHourglassView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		762B767E4379AD710E429C904D97CB8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E970B97DB66AAE33C15C174D7163CAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F688973F665536C8A9BFC1B8113986CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A9F346BA6A2C8795C7667D030D639D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FE4006C39D5C9DD9037488DC7873336 /* FZHourglassView-dummy.m in Sources */,
+				25F6B5495216841B260072CC6B49E015 /* FZHourglassView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49E51A28BDD41B480C2B41B00577DF06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72BA87249DD4AB35B7B5815211B5B8AA /* Pods-FZHourglassView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B4B18C04BB199C232807F771ECC5916 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				476F53850E6106B5661EB9882DEC66C3 /* Pods-FZHourglassView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D9EF095F16D75C37DFD030A4930A05E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FZHourglassView;
+			target = 489826F4EF03AB8941DA7F9D17F615FB /* FZHourglassView */;
+			targetProxy = CC192B313D2B6EAE32A0248E2FB45BFB /* PBXContainerItemProxy */;
+		};
+		6EBF144E7D5CD6841580FEE7D8FBB09A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FZHourglassView_Example";
+			target = 70806DC55F8DC762DE6FB2204B803D30 /* Pods-FZHourglassView_Example */;
+			targetProxy = 3D197C4DF3DACD79EA828CB27B5E9C2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3469EF2FAFF040F42AE5B2EB170381A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 819E7DECB528394AA542622E1A18E4E4 /* Pods-FZHourglassView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FZHourglassView_Tests/Pods-FZHourglassView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FZHourglassView_Tests/Pods-FZHourglassView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		54E96BE1751CD655568754BA434638AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92070C666B7D617CF9D447B068A4ED52 /* Pods-FZHourglassView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FZHourglassView_Example/Pods-FZHourglassView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FZHourglassView_Example/Pods-FZHourglassView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		869F5206560A730ED2CE3041ED75B753 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0C01917C5F3E5E9568F2A777040E2D4 /* FZHourglassView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FZHourglassView/FZHourglassView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FZHourglassView/FZHourglassView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FZHourglassView/FZHourglassView.modulemap";
+				PRODUCT_MODULE_NAME = FZHourglassView;
+				PRODUCT_NAME = FZHourglassView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		90D0542B5A7838BD0AB648ED24E9E577 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD3CBBCC78B12AF33839774F908865EA /* Pods-FZHourglassView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FZHourglassView_Example/Pods-FZHourglassView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FZHourglassView_Example/Pods-FZHourglassView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A3A6F6C445F5E42F9B6CE02C9D8C5217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0C01917C5F3E5E9568F2A777040E2D4 /* FZHourglassView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FZHourglassView/FZHourglassView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FZHourglassView/FZHourglassView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FZHourglassView/FZHourglassView.modulemap";
+				PRODUCT_MODULE_NAME = FZHourglassView;
+				PRODUCT_NAME = FZHourglassView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CC42A3010BFD15A4D47510B5ACC254DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F246847206B07C74A532F8445618454 /* Pods-FZHourglassView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FZHourglassView_Tests/Pods-FZHourglassView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FZHourglassView_Tests/Pods-FZHourglassView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		307174FA032088DB0C6F6959B39EA7A1 /* Build configuration list for PBXNativeTarget "Pods-FZHourglassView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3469EF2FAFF040F42AE5B2EB170381A5 /* Debug */,
+				CC42A3010BFD15A4D47510B5ACC254DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C530B5F7384773D650F31CDB9CFDDC87 /* Build configuration list for PBXNativeTarget "FZHourglassView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3A6F6C445F5E42F9B6CE02C9D8C5217 /* Debug */,
+				869F5206560A730ED2CE3041ED75B753 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E47F36FB9CBC1D12589C7B180EAFCA5B /* Build configuration list for PBXNativeTarget "Pods-FZHourglassView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D0542B5A7838BD0AB648ED24E9E577 /* Debug */,
+				54E96BE1751CD655568754BA434638AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

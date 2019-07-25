@@ -1,0 +1,16 @@
+PODS:
+  - FZHourglassView (0.0.1)
+
+DEPENDENCIES:
+  - FZHourglassView (from `../`)
+
+EXTERNAL SOURCES:
+  FZHourglassView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FZHourglassView: a442b18e441a3ead603a6fc480c7c3cf2e013804
+
+PODFILE CHECKSUM: fdabf1382ca7f43d769eef19fdcfeb29812f955c
+
+COCOAPODS: 1.7.4

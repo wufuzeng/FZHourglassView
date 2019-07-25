@@ -1,0 +1,6 @@
+framework module FZHourglassView {
+  umbrella header "FZHourglassView-umbrella.h"
+
+  export *
+  module * { export * }
+}
