@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'FZHourglassView_Example' do
+  pod 'FZHourglassView', :path => '../'
+
+  target 'FZHourglassView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
